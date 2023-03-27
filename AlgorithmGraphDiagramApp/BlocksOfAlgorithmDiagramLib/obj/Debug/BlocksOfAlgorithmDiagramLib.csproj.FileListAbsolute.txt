@@ -1,0 +1,8 @@
+C:\Users\ACER\Documents\Projects\BlocksOfAlgorithmLib\BlocksOfAlgorithmDiagramLib\bin\Debug\BlocksOfAlgorithmDiagramLib.dll
+C:\Users\ACER\Documents\Projects\BlocksOfAlgorithmLib\BlocksOfAlgorithmDiagramLib\bin\Debug\BlocksOfAlgorithmDiagramLib.pdb
+C:\Users\ACER\Documents\Projects\BlocksOfAlgorithmLib\BlocksOfAlgorithmDiagramLib\obj\Debug\BlocksOfAlgorithmDiagramLib.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\BlocksOfAlgorithmLib\BlocksOfAlgorithmDiagramLib\obj\Debug\BlocksOfAlgorithmDiagramLib.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\BlocksOfAlgorithmLib\BlocksOfAlgorithmDiagramLib\obj\Debug\BlocksOfAlgorithmDiagramLib.dll
+C:\Users\ACER\Documents\Projects\BlocksOfAlgorithmLib\BlocksOfAlgorithmDiagramLib\obj\Debug\BlocksOfAlgorithmDiagramLib.pdb
+C:\Users\ACER\Documents\Projects\BlocksOfAlgorithmLib\BlocksOfAlgorithmDiagramLib\obj\Debug\BlocksOfAlgorithmDiagramLib.UserControl1.resources
+C:\Users\ACER\Documents\Projects\BlocksOfAlgorithmLib\BlocksOfAlgorithmDiagramLib\obj\Debug\BlocksOfAlgorithmDiagramLib.csproj.GenerateResource.cache
