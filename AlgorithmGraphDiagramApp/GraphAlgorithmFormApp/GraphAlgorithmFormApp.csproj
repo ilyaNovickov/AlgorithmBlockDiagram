@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="testForm1.cs" />
+    <Compile Include="UserControls\ColorChooseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ColorChooseControl.Designer.cs">
+      <DependentUpon>ColorChooseControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\RadioGroup%28old%29.cs" />
     <Compile Include="UserControls\RadioGroup.cs">
       <SubType>Component</SubType>
@@ -73,6 +81,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControls\ColorChooseControl.resx">
+      <DependentUpon>ColorChooseControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,10 +98,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BlocksOfAlgorithmDiagramLib\BlocksOfAlgorithmDiagramLib.csproj">
+      <Project>{78e29329-46cc-4e0c-b5e8-77a045803045}</Project>
+      <Name>BlocksOfAlgorithmDiagramLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZoomAndDragControlLib\ZoomAndDragControlLib.csproj">
       <Project>{FDBEECFD-5581-4AC1-8E65-EEE7324B6273}</Project>
       <Name>ZoomAndDragControlLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExtraClasses\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

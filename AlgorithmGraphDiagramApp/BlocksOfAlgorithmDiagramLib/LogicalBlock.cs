@@ -31,6 +31,14 @@ namespace BlocksOfAlgorithmDiagramLib
         {
 
         }
+        public LogicalBlock(Point point) : base(point)
+        {
+
+        }
+        public LogicalBlock(int x, int y) : base(x, y)
+        {
+
+        }
         #endregion
         #region Свойства
         private GraphicsPath GraphicsPath
@@ -42,6 +50,7 @@ namespace BlocksOfAlgorithmDiagramLib
                 path.AddLine(new Point(Rectangle.Left + Size.Width / 2, Rectangle.Top), new Point(Rectangle.Right, Rectangle.Top + Size.Height / 2));
                 path.AddLine(new Point(Rectangle.Right, Rectangle.Top + Size.Height / 2), new Point(Rectangle.Left + Size.Width / 2, Rectangle.Bottom));
                 path.AddLine(new Point(Rectangle.Left + Size.Width / 2, Rectangle.Bottom), new Point(Rectangle.Left, Rectangle.Top + Size.Height / 2));
+                path.AddLine(new Point(Rectangle.Left, Rectangle.Top + Size.Height / 2), new Point(Rectangle.Left + Size.Width / 2, Rectangle.Top));
                 return path;
             }
         }

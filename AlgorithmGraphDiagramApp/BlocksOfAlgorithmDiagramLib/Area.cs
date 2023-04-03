@@ -10,12 +10,14 @@ namespace BlocksOfAlgorithmDiagramLib
 {
     public abstract class Area : IDrawable
     {
-        #region static values
-        public static readonly int MinWidth = 40;
-        public static readonly int MinHeight = 20;
-        #endregion
+        //#region static values
+        //public static readonly int MinWidth = 40;
+        //public static readonly int MinHeight = 20;
+        //#endregion
         #region Данные
         Size size;
+        int minWidth = 40;
+        int minHeight = 20;
         #endregion
         #region Конструкторы
         internal Area()
@@ -34,6 +36,14 @@ namespace BlocksOfAlgorithmDiagramLib
         {
 
         }
+        internal Area(Point point) : this(new Rectangle(point.X, point.Y, 150, 75))
+        {
+
+        }
+        internal Area(int x, int y) : this(new Rectangle(x, y, 150, 75))
+        {
+
+        }
         #endregion
         #region Свойства
         [Category("Положение и размер")]
@@ -48,7 +58,7 @@ namespace BlocksOfAlgorithmDiagramLib
             get { return size; }
             set
             {
-                if (value.Width > MinWidth && value.Height > MinHeight)
+                if (value.Width > minWidth && value.Height > minHeight)
                 {
                     size = value;
                     return;
@@ -56,12 +66,38 @@ namespace BlocksOfAlgorithmDiagramLib
                 else
                 {
                     size = value;
-                    if (value.Width < MinWidth)
-                        size.Width = MinWidth;
-                    if (value.Height < MinHeight)
-                        size.Height = MinHeight;
+                    if (value.Width < minWidth)
+                        size.Width = minWidth;
+                    if (value.Height < minHeight)
+                        size.Height = minHeight;
                     return;
                 }
+            }
+        }
+        [Category("Положение и размер")]
+        [Description("Отвечает за минимальную ширину объекта")]
+        [DisplayName("Минимальная ширина")]
+        public int MinWidth
+        {
+            get { return minWidth; }
+            set 
+            {
+                if (value < 0)
+                    throw new Exception("Размер не может быть отрицательным");
+                minWidth = value;
+            }
+        }
+        [Category("Положение и размер")]
+        [Description("Отвечает за минимальную высоту объекта")]
+        [DisplayName("Минимальная высота")]
+        public int MinHeight
+        {
+            get { return minHeight; }
+            set
+            {
+                if (value < 0)
+                    throw new Exception("Размер не может быть отрицательным");
+                minHeight = value;
             }
         }
         [Category("Положение и размер")]

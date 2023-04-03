@@ -27,6 +27,13 @@ namespace BlocksOfAlgorithmDiagramLib
             this.points.AddRange(points);
             DefaultInitilization();
         }
+        public Line(Point point)
+        {
+            this.points.Add(point);
+            point.Offset(50, 50);
+            this.points.Add(point);
+            DefaultInitilization();
+        }
         public Line(Color contourColor, int contourThick, params Point[] points)
         {
             this.points.AddRange(points);
@@ -75,7 +82,7 @@ namespace BlocksOfAlgorithmDiagramLib
         [Category("Процее")]
         [Description("Отвечает за прямоугольную область, занимаемую линией")]
         [DisplayName("Занимаемая область")]
-        public Rectangle Area
+        public Rectangle Rectangle
         {
             get
             {
@@ -122,7 +129,8 @@ namespace BlocksOfAlgorithmDiagramLib
         }
         public void DeletePoint(int index)
         {
-            points.RemoveAt(index);
+            if (0 <= index && index <= points.Count - 1)
+                points.RemoveAt(index);
         }
         public void InsertPoint(Point point, int index)
         {
@@ -149,7 +157,20 @@ namespace BlocksOfAlgorithmDiagramLib
         }
         public int GetIndexofPoint(Point point)
         {
+            
             return points.IndexOf(point);
+        }
+        public int GetIndexofPoint(Point point, int radius)
+        {
+            if (radius <= 2)
+                return -1;
+            foreach (var p in points)
+            {
+                Rectangle rect = new Rectangle(p.X - radius, p.Y - radius, radius * 2, radius * 2);
+                if (rect.Contains(point))
+                    return points.IndexOf(p);
+            }
+            return -1;
         }
         public Point[] GetAllPoints()
         {
@@ -173,20 +194,67 @@ namespace BlocksOfAlgorithmDiagramLib
             }
             return false;
         }
+        public bool IsOnto(Point point)
+        {
+            GraphicsPath gp = new GraphicsPath();
+            gp.AddLines(points.ToArray());
+            if (gp.IsOutlineVisible(point, new Pen(ContourColor, ContourThick * 4)) || Contains(point, 5))
+                return true;
+            return false;
+        }
+        public bool IsOnto(int x, int y)
+        {
+            return IsOnto(new Point(x, y));
+        }
+        //Переделать
+        public bool IsIntersects(Rectangle rectangle)
+        {
+            if (rectangle.Width < 2 && rectangle.Height < 2)
+                return false;
+            for (int i = 0; i < points.Count - 1; i++)
+            {
+                Point point1 = points[i];
+                Point point2 = points[i + 1];
+                if (rectangle.Contains(point1) || rectangle.Contains(point2))
+                    return true;
+                return IsIntersects(point1, point2, new Point(rectangle.Left, rectangle.Top), new Point(rectangle.Right, rectangle.Top)) ||
+                        IsIntersects(point1, point2, new Point(rectangle.Right, rectangle.Top), new Point(rectangle.Right, rectangle.Bottom)) ||
+                        IsIntersects(point1, point2, new Point(rectangle.Right, rectangle.Bottom), new Point(rectangle.Left, rectangle.Bottom)) ||
+                        IsIntersects(point1, point2, new Point(rectangle.Left, rectangle.Bottom), new Point(rectangle.Left, rectangle.Top));
+            }
+            return false;
+        }
+        private bool IsIntersects(Point point1, Point point2, Point point3, Point point4)
+        {
+            //https://www.interestprograms.ru/source-codes-peresechenie-dvuh-otrezkov?ysclid=lfwuy9mt8x232048297
+            double v1 = point2.X - point1.X;
+            double w1 = point2.Y - point1.Y;
+            double v2 = point4.X - point3.X;
+            double w2 = point4.Y - point3.Y;
+            double t34 = ( v1 * (point1.Y - point3.Y) + w1 * (point3.X - point1.X) )
+                /
+                ( v1 * w2 - w1 * v2 );
+            double t12 = ( point3.X - point1.X + v2 * t34 ) / v1;
+            return (0 <= t12 && t12 <= 1 && 0 <= t34 && t34 <= 1);
+        }
         public void MovePoint(int index, int deltaX, int deltaY)
         {
-            if (index >= 0 || index < points.Count)
+            if (index >= 0 && index < points.Count)
             {
                 Point point = points[index];
                 point.Offset(deltaX, deltaY);
                 points[index] = point;
+            }
+            else if (index == -1)
+            {
+                return;
             }
             else
             {
                 throw new Exception("Выход за границы списка");
             }
         }
-        public void MoveAllPoint(int deltaX, int deltaY)
+        public void MoveAllPoints(int deltaX, int deltaY)
         {
             for (int i = 0; i < points.Count; i++)
             {

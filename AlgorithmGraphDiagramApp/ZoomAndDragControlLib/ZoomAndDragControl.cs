@@ -32,6 +32,7 @@ namespace ZoomAndDragContolLib
             this.SetStyle(ControlStyles.AllPaintingInWmPaint |
                 ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw |
                 ControlStyles.Selectable | ControlStyles.UserPaint, true);
+            this.DoubleBuffered = true;
         }
         #endregion
         #region Данные
@@ -39,8 +40,8 @@ namespace ZoomAndDragContolLib
         float maxZoom = 10f;
         float minZoom = 0.02f;
         bool grid = true;//Включена ли сетка
-        public Matrix matrix = new Matrix();//Матрица трансфориации (для получения преобразованных координат)
-        public Matrix inverseMatrix = new Matrix();//Обратная матрица трансформации (для получения обычных координат)
+        readonly Matrix matrix = new Matrix();//Матрица трансфориации (для получения преобразованных координат)
+        readonly Matrix inverseMatrix = new Matrix();//Обратная матрица трансформации (для получения обычных координат)
         PointF translation = new PointF();//Вектор смещения 
         Point lastLocation;//Последние координаты курсора мыши
         Color smallGridColor = Color.White;//Цвет маленькой решётки
@@ -61,9 +62,9 @@ namespace ZoomAndDragContolLib
             get { return zoom; }
             set //Метод устанавливающий значение свойства
             { 
-                if (zoom < minZoom)//Если значение маштаба меньше минимального
+                if (value < minZoom)//Если значение маштаба меньше минимального
                     zoom = minZoom;//Установка минимального значения
-                else if (zoom > maxZoom)//Иначе если значение маштаба больше максимального
+                else if (value > maxZoom)//Иначе если значение маштаба больше максимального
                     zoom = maxZoom;//Установка максимального значения 
                 else
                     zoom = value;//Установка значения
@@ -196,7 +197,8 @@ namespace ZoomAndDragContolLib
         [DefaultValue("MouseButtons.None")]//Установка атрибута значения по умолчанию
         public MouseButtons DragMouseButtons
         {
-            get; set;//Методы возвращающие и устанавливающие значение свойства
+            get; 
+            set;//Методы возвращающие и устанавливающие значение свойства
         }
         #endregion
         #region События
@@ -270,6 +272,12 @@ namespace ZoomAndDragContolLib
             inverseMatrix.Scale(1.0f / zoom, 1.0f / zoom);//Добавление обратного маштаба к матрице
             inverseMatrix.Translate(-center.X, -center.Y);//Удаление смещения к центру с применением маштаба
             inverseMatrix.Translate(-translation.X, -translation.Y);//Добавление обратного смещения к матрице
+        }
+        public void ResetMatrix()
+        {
+            translation = PointF.Empty;
+            Zoom = 1f;
+            UpdateMatrices();
         }
         #endregion
         #region Рисование
@@ -428,5 +436,9 @@ namespace ZoomAndDragContolLib
             return g;//Вовращение класса Graphics
         }
         #endregion
+        public Matrix GetTransformMatrix()
+        {
+            return matrix;
+        }
     }
 }

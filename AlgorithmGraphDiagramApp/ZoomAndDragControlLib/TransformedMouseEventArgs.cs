@@ -55,7 +55,11 @@ namespace ZoomAndDragContolLib
         /// <summary>
         /// Преобразованное положение курсора мыши
         /// </summary>
-        public PointF Location => new PointF(X, Y);
+        public PointF LocationF => new PointF(X, Y);
+        /// <summary>
+        /// Преобразованное положение курсора мыши, сокращённое до целых
+        /// </summary>
+        public Point Location => new Point((int)X, (int)Y);
         /// <summary>
         /// Нажатая кнопка мыши
         /// </summary>

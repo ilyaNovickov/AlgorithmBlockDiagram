@@ -31,6 +31,14 @@ namespace BlocksOfAlgorithmDiagramLib
         {
 
         }
+        public BeginEndBlock(Point point) : base(point)
+        {
+
+        }
+        public BeginEndBlock(int x, int y) : base(x, y)
+        {
+
+        }
         #endregion
         #region Свойства
         private GraphicsPath GraphicsPath

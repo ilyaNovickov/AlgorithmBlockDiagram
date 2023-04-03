@@ -35,6 +35,14 @@ namespace BlocksOfAlgorithmDiagramLib
         {
             DefaultInitilization();
         }
+        public Shape(Point point) : base(point)
+        {
+
+        }
+        public Shape(int x, int y) : base(x, y)
+        {
+
+        }
         private void DefaultInitilization()
         {
             FillColor = Color.White;

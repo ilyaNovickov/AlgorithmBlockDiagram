@@ -29,6 +29,10 @@ namespace BlocksOfAlgorithmDiagramLib
         {
             DefaultInitilization();
         }
+        public LineWithArrow(Point point) : base(point)
+        {
+            DefaultInitilization();
+        }
         public LineWithArrow(Color contourColor, int contourThick, params Point[] points) : base(contourColor, contourThick, points)
         {
             DefaultInitilization();

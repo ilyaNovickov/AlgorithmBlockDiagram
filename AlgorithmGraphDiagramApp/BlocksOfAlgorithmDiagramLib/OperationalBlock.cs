@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlocksOfAlgorithmDiagramLib
 {
-    internal class OperationalBlock : Shape
+    public class OperationalBlock : Shape
     {
         #region Конструкторы
         public OperationalBlock() : base()
@@ -27,6 +27,14 @@ namespace BlocksOfAlgorithmDiagramLib
 
         }
         public OperationalBlock(string text, int x, int y, int width, int heigth) : this(text, new Rectangle(x, y, width, heigth))
+        {
+
+        }
+        public OperationalBlock(Point point) : base(point)
+        {
+
+        }
+        public OperationalBlock(int x, int y) : base(x, y)
         {
 
         }

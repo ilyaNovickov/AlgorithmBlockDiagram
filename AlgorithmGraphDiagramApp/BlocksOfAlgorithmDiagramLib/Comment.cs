@@ -30,6 +30,14 @@ namespace BlocksOfAlgorithmDiagramLib
         {
 
         }
+        public Comment(Point point) : base(point)
+        {
+
+        }
+        public Comment(int x, int y) : base(x, y)
+        {
+
+        }
         #endregion
         #region Методы
         public override void Draw(Graphics g)

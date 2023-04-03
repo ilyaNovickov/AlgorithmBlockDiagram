@@ -47,6 +47,7 @@
     <Compile Include="AreaWithText.cs" />
     <Compile Include="BeginEndBlock.cs" />
     <Compile Include="Arrow.cs" />
+    <Compile Include="BlockDiagram.cs" />
     <Compile Include="LineWithArrow.cs" />
     <Compile Include="Line.cs" />
     <Compile Include="LogicalBlock.cs" />
@@ -54,32 +55,7 @@
     <Compile Include="OperationalBlock.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="IDrawable.cs" />
-    <Compile Include="oldFiles24 03 23\AlgorithmBlockDiagram.cs" />
-    <Compile Include="oldFiles24 03 23\Class1.cs" />
-    <Compile Include="oldFiles24 03 23\TerminatorBlock.cs" />
-    <Compile Include="oldFiles24 03 23\ConditionBlock.cs" />
-    <Compile Include="oldFiles24 03 23\Comment.cs" />
-    <Compile Include="oldFiles24 03 23\ProcessBlock.cs" />
-    <Compile Include="oldFiles24 03 23\Shape.cs" />
-    <Compile Include="oldFiles24 03 23\IDrawable.cs" />
-    <Compile Include="oldFiles24 03 23\IArea.cs" />
-    <Compile Include="OldFiles\AbstractBlock.cs" />
-    <Compile Include="OldFiles\Class1.cs" />
-    <Compile Include="OldFiles\oldExternalText.cs" />
-    <Compile Include="OldFiles\InternalText.cs" />
-    <Compile Include="OldFiles\Interface2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="OldFiles\UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="OldFiles\UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="OldFiles\UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

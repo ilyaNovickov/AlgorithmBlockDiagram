@@ -32,6 +32,18 @@ namespace BlocksOfAlgorithmDiagramLib
             this.text = text;
             DefaultInitilization();
         }
+        internal AreaWithText(Point point)
+        {
+            this.text = "Empty Text";
+            this.Rectangle = new Rectangle(point, new Size(150, 75));
+            DefaultInitilization();
+        }
+        internal AreaWithText(int x, int y)
+        {
+            this.text = "Empty Text";
+            this.Rectangle = new Rectangle(x, y, 150, 75);
+            DefaultInitilization();
+        }
         private void DefaultInitilization()
         {
             stringFormat.Alignment = StringAlignment.Center;
