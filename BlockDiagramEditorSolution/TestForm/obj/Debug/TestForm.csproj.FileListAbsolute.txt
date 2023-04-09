@@ -1,0 +1,14 @@
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\bin\Debug\TestForm.exe.config
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\bin\Debug\TestForm.exe
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\bin\Debug\TestForm.pdb
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\bin\Debug\BlocksDiagramLib.dll
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\bin\Debug\BlocksDiagramLib.pdb
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.Form1.resources
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.Properties.Resources.resources
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.csproj.GenerateResource.cache
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.csproj.CopyComplete
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.exe
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\TestForm\obj\Debug\TestForm.pdb

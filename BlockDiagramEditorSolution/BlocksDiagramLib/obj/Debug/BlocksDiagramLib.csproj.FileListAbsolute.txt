@@ -1,0 +1,6 @@
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\BlocksDiagramLib\obj\Debug\BlocksDiagramLib.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\BlocksDiagramLib\obj\Debug\BlocksDiagramLib.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\BlocksDiagramLib\bin\Debug\BlocksDiagramLib.dll
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\BlocksDiagramLib\bin\Debug\BlocksDiagramLib.pdb
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\BlocksDiagramLib\obj\Debug\BlocksDiagramLib.dll
+C:\Users\ACER\Documents\Projects\BlockDiagramEditorSolution\BlocksDiagramLib\obj\Debug\BlocksDiagramLib.pdb
