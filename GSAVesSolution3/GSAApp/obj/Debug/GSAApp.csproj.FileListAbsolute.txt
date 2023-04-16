@@ -1,0 +1,63 @@
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\bin\Debug\GSAApp.exe.config
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\bin\Debug\GSAApp.exe
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\bin\Debug\GSAApp.pdb
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\bin\Debug\BlocksOfAlgorithmDiagramLib.dll
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\bin\Debug\ZoomAndDragContolLib.dll
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\bin\Debug\BlocksOfAlgorithmDiagramLib.pdb
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\bin\Debug\ZoomAndDragContolLib.pdb
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.Form1.resources
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.Properties.Resources.resources
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.csproj.GenerateResource.cache
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.csproj.CopyComplete
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.exe
+C:\Users\ACER\Documents\Projects\GSASolution\GSAApp\obj\Debug\GSAApp.pdb
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\bin\Debug\GSAApp.exe.config
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\bin\Debug\GSAApp.exe
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\bin\Debug\GSAApp.pdb
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\bin\Debug\GSAVelLib.dll
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\bin\Debug\ZoomAndDragContolLib.dll
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\bin\Debug\GSAVelLib.pdb
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\bin\Debug\ZoomAndDragContolLib.pdb
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\obj\Debug\GSAApp.csprojAssemblyReference.cache
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\obj\Debug\GSAApp.Form1.resources
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\obj\Debug\GSAApp.Properties.Resources.resources
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\obj\Debug\GSAApp.csproj.GenerateResource.cache
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\obj\Debug\GSAApp.csproj.CoreCompileInputs.cache
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\obj\Debug\GSAApp.csproj.CopyComplete
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\obj\Debug\GSAApp.exe
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAApp\obj\Debug\GSAApp.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\bin\Debug\GSAApp.exe.config
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\bin\Debug\GSAApp.exe
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\bin\Debug\GSAApp.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\bin\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\bin\Debug\ZoomAndDragContolLib.dll
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\bin\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\bin\Debug\ZoomAndDragContolLib.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.Form1.resources
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.Properties.Resources.resources
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.csproj.GenerateResource.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.csproj.CopyComplete
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.exe
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAApp\obj\Debug\GSAApp.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.Form1.resources
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.Properties.Resources.resources
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.csproj.GenerateResource.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.exe
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\bin\Debug\GSAApp.exe.config
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\bin\Debug\GSAApp.exe
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\bin\Debug\GSAApp.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\bin\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\bin\Debug\ZoomAndDragContolLib.dll
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\bin\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\bin\Debug\ZoomAndDragContolLib.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAApp\obj\Debug\GSAApp.csproj.CopyComplete

@@ -1,0 +1,48 @@
+////private void ResizeElement(IDiagramElement element, Point point)
+        ////{
+        ////    if (element is Area)
+        ////    {
+        ////        ((Area)element).Rectangle = GetRectangle(oldMousePoint, point);
+        ////        CenterElement(element);
+        ////    }
+        ////    else if (element is Comment)
+        ////    {
+        ////        ((Comment)element).Rectangle = GetRectangle(oldMousePoint, point);
+        ////        CenterElement(element);
+        ////    }
+        ////    else if (element is Line)
+        ////    {
+        ////        ((Line)element)[0] = oldMousePoint;
+        ////        ((Line)element)[1] = point;
+        ////    }
+        ////}
+
+
+
+//Метод получения прямоугольника по 2 точкам
+        private Rectangle GetRectangle(Point point1, Point point2)
+        {
+            Point leftTop = new Point();
+            Point rightBottom = new Point();
+            if (point1.X > point2.X)
+            {
+                leftTop.X = point2.X;
+                rightBottom.X = point1.X;
+            }
+            else
+            {
+                leftTop.X = point1.X;
+                rightBottom.X = point2.X;
+            }
+            if (point1.Y > point2.Y)
+            {
+                leftTop.Y = point2.Y;
+                rightBottom.Y = point1.Y;
+            }
+            else
+            {
+                leftTop.Y = point1.Y;
+                rightBottom.Y = point2.Y;
+            }
+            return new Rectangle(leftTop, new Size(rightBottom.X - leftTop.X, rightBottom.Y - leftTop.Y));
+        }
