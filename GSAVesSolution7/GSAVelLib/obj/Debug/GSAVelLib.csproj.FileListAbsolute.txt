@@ -1,0 +1,42 @@
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAVelLib\bin\Debug\GSAVelLib.dll
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAVelLib\bin\Debug\GSAVelLib.pdb
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAVelLib\obj\Debug\GSAVelLib.csprojAssemblyReference.cache
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAVelLib\obj\Debug\GSAVelLib.csproj.CoreCompileInputs.cache
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAVelLib\obj\Debug\GSAVelLib.dll
+C:\Users\tstu_student2\source\repos\GSAVesSolution\GSAVelLib\obj\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAVelLib\bin\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAVelLib\bin\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAVelLib\obj\Debug\GSAVelLib.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAVelLib\obj\Debug\GSAVelLib.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAVelLib\obj\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution2\GSAVelLib\obj\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAVelLib\obj\Debug\GSAVelLib.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAVelLib\obj\Debug\GSAVelLib.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAVelLib\obj\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAVelLib\obj\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAVelLib\bin\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj4\GSAVesSolution3 (Text)\GSAVelLib\bin\Debug\GSAVelLib.pdb
+C:\Users\tstu_student2\Documents\НИ\Proj5\GSAVesSolution3 — копия — копия\GSAVelLib\obj\Debug\GSAVelLib.csprojAssemblyReference.cache
+C:\Users\tstu_student2\Documents\НИ\Proj5\GSAVesSolution3 — копия — копия\GSAVelLib\obj\Debug\GSAVelLib.csproj.CoreCompileInputs.cache
+C:\Users\tstu_student2\Documents\НИ\Proj5\GSAVesSolution3 — копия — копия\GSAVelLib\obj\Debug\GSAVelLib.dll
+C:\Users\tstu_student2\Documents\НИ\Proj5\GSAVesSolution3 — копия — копия\GSAVelLib\obj\Debug\GSAVelLib.pdb
+C:\Users\tstu_student2\Documents\НИ\Proj5\GSAVesSolution3 — копия — копия\GSAVelLib\bin\Debug\GSAVelLib.dll
+C:\Users\tstu_student2\Documents\НИ\Proj5\GSAVesSolution3 — копия — копия\GSAVelLib\bin\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution4\GSAVelLib\bin\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution4\GSAVelLib\bin\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution4\GSAVelLib\obj\Debug\GSAVelLib.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution4\GSAVelLib\obj\Debug\GSAVelLib.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution4\GSAVelLib\obj\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution4\GSAVelLib\obj\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution6 Alt\GSAVelLib\bin\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution6 Alt\GSAVelLib\bin\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution6 Alt\GSAVelLib\obj\Debug\GSAVelLib.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution6 Alt\GSAVelLib\obj\Debug\GSAVelLib.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution6 Alt\GSAVelLib\obj\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj6\GSAVesSolution6 Alt\GSAVelLib\obj\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj7\GSAVesSolution7\GSAVelLib\bin\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj7\GSAVesSolution7\GSAVelLib\bin\Debug\GSAVelLib.pdb
+C:\Users\ACER\Documents\Projects\Proj7\GSAVesSolution7\GSAVelLib\obj\Debug\GSAVelLib.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Projects\Proj7\GSAVesSolution7\GSAVelLib\obj\Debug\GSAVelLib.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Projects\Proj7\GSAVesSolution7\GSAVelLib\obj\Debug\GSAVelLib.dll
+C:\Users\ACER\Documents\Projects\Proj7\GSAVesSolution7\GSAVelLib\obj\Debug\GSAVelLib.pdb
